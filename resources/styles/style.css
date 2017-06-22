@@ -10,7 +10,7 @@ html {font-family: Helvetica;
          width: 100%
        }
 .header span {color: white;
-                  padding-right: 1rem;
+                  padding-right: 9rem;
                   padding-top: 1rem;
                   padding-bottom: 1rem;
                   height: 1.5rem;
@@ -18,12 +18,14 @@ html {font-family: Helvetica;
 .topbanner {background: cadetblue;
       display: flex;
       align-items: center;
+      justify-content: space-between;
       margin-top: 1rem;
       width: 100%;
       }
 .topbanner img {
                 padding-left: 2rem;
-                padding-right: 1rem;
+                /*padding-right: 1rem;*/
+                padding-right: 0;
                 padding-top: 1rem;
                 padding-bottom: 1rem;
                 height: 1.5rem;
@@ -32,7 +34,7 @@ html {font-family: Helvetica;
              color: white;
              padding: 1rem 2rem;
              display: inline-flex;
-             justify-content: flex-end;
+             /*justify-content: flex-end;*/
 }
 
 .container {width: 960px;
@@ -45,25 +47,31 @@ html {font-family: Helvetica;
             margin-top: 10rem;
 }
 .midsectionnav {display: flex;
-                margin: 3rem;
+                margin-top: 3rem;
                 justify-content: center;
-                height: 8rem;
-                width: 960px;
+                /*height: 8rem;*/
+                width: 100%;
                 align-items: center;
+                /*vertical-align: baseline;*/
+
 }
 
 .feature {width: 5rem;
           height: 8rem;
           display: flex;
           flex-direction: column;
-          /*align-items: center;
-          text-align: center;*/
-          justify-content: space-between;
+          padding-right: 6rem;
+          text-align: center;
+          align-self: center;
 
 }
-.midsectionnav h3 {margin-right: 6rem;
+
+.feature img {width: 4rem;
+}
+.midsectionnav h3 {padding-right: 6rem;
                   /*align-items: center;
                   text-align: center;*/
+
 }
 .introheading {display: flex;
                color: white;
